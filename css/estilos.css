@@ -1,0 +1,194 @@
+
+.logo img{
+	height: 60px;
+}
+.menu a{
+	text-decoration: none;
+	color: #2f2f2f;
+}
+.menu{
+	font-family: 'Montserrat',sans-serif;
+	font-size: 18px;
+}
+.menuu ul li a{
+	transition: all 200ms;
+}
+.menu a:hover{
+	color: #349ce1;
+}
+.fondo{
+	background: url("../img/Fondo programacion 2.jpg");
+	background-size: cover;
+	background-position: center center;
+	background-repeat: no-repeat;
+	height: calc(100vh - 100px);
+}
+.encabezado h1{
+	color: #349ce1;
+	font-family: 'Montserrat', sans-serif;
+	font-weight: 600;
+	font-size: 6em;
+	text-shadow: 2px 2px 3px #333;
+}
+.encabezado h3{
+	color: #ffff;
+	font-family: 'Montserrat', sans-serif;
+	font-weight: 500;
+	font-size: 6em;
+	text-shadow: 2px 2px 3px #333;
+}
+
+.titulop{
+	font-family: 'Montserrat', sans-serif;
+	font-weight: 600;
+	text-transform: uppercase;
+	color: #333333;
+}
+.titulop hr{
+	padding: 0;
+	border: none;
+	height: 2px;
+	background-image: -webkit-linear-gradient(left, rgba(0,0,0,0), #349ce1, rgba(0,0,0,0));
+	background-image: -moz-linear-gradient(left, rgba(0,0,0,0), #349ce1, rgba(0,0,0,0));
+	background-image: -ms-linear-gradient(left, rgba(0,0,0,0), #349ce1, rgba(0,0,0,0));
+	background-image: -o-linear-gradient(left, rgba(0,0,0,0), #349ce1, rgba(0,0,0,0));
+	color: #349ce1;
+	text-align: center;
+}
+.titulop hr:after{
+	content:" ";
+	display: inline-block;
+	position: relative;
+	top: -2.1em;
+	font-size: 1.5em;
+	padding: 19px 1.75em;
+	background-size: 90px 90px;
+	height: 50px;
+}
+.sephr{
+	padding: 0;
+	border: none;
+	height: 2px;
+	background-image: -webkit-linear-gradient(left, rgba(0,0,0,0), #349ce1, rgba(0,0,0,0));
+	background-image: -moz-linear-gradient(left, rgba(0,0,0,0), #349ce1, rgba(0,0,0,0));
+	background-image: -ms-linear-gradient(left, rgba(0,0,0,0), #349ce1, rgba(0,0,0,0));
+	background-image: -o-linear-gradient(left, rgba(0,0,0,0), #349ce1, rgba(0,0,0,0));
+	color: #349ce1;
+	text-align: center;
+}
+.sephr:after{
+	content:" ";
+	display: inline-block;
+	position: relative;
+	top: -2.1em;
+	font-size: 1.5em;
+	padding: 19px 1.75em;
+	background-size: 90px 90px;
+	height: 50px;
+}
+.cardPortafolio{
+	box-shadow: 2px 2px 15px #a5a5a5;
+}
+.cardPortafolio h3{
+	font-family: 'Raleway', sans-serif;
+	font-weight: 600;
+	color: #45505b;
+}
+
+.cardPortafolio button{
+	color: #fff;
+	background-color: #349ce1;
+	border:3px solid #2977ab;
+}
+
+.btnmodal{
+	color: #2977ab;
+	font-size: 30px;
+}
+.titulomodal{
+	font-family: 'Raleway',sans-serif;
+	font-weight: 600;
+	color: #45505b;
+}
+.fa{
+	color: black;
+	font-size: 30px;
+}
+.contskill{
+	background-color: #2977ab;
+}
+.contskill h2{
+	font-family: 'Montserrat', sans-serif;
+	font-weight: 600;
+	text-transform: uppercase;
+	margin-top: 1em;
+}
+
+.skill img{
+	height: 150px;
+	border-radius: 2rem;
+}
+.FA img{
+	height: 300px;
+	box-shadow: 2px 2px 15px #a5a5a5;
+	border-radius: 11rem;
+} 
+
+.sobremi h2{
+	font-family: 'Raleway',sans-serif;
+	font-weight: 500;
+	color: #333333;
+	font-size: 23px;
+}
+.sobremi button{
+	color: #fff;
+	font-family: 'Montserrat', sans-serif;
+	padding: 5px 20px 5px 20px; 
+	background-color: #349ce1;
+	border-radius: 5px;
+	border: 0px solid;
+	box-shadow: 0px 4px 4px rgb(0 0 0 / 25%);
+}
+.contact h4{
+	font-size: 22px;
+}
+.contact a{
+	text-decoration: none;
+	color: #ffff;
+}
+@media screen and (max-width: 1199px){}
+
+/*Dispositivo lg*/
+@media screen and (max-width: 991px){
+	.fondo{
+		height: 850px;
+	}
+}
+/*Dispositivo md*/
+@media screen and (max-width: 767px){
+	.fondo{
+		height: 400px;
+	}
+	.encabezado h1, .encabezado h3{
+		font-size: 4em;
+	}
+
+	.cardPortafolio img{
+		height: 200px;
+	}
+}
+
+/*Dispositivo sm*/
+@media screen and (max-width: 575px){
+	.fondo{
+		height: 300px;
+	}
+	.encabezado h1, .encabezado h3{
+		font-size: 2em;
+	}
+
+	.skill img{
+		height: 120px;
+		border-radius: 2rem;
+	}
+}
